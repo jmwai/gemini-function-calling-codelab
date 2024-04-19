@@ -1,3 +1,5 @@
+## How to Interact with APIs Using Function Calling in Gemini
+
 This repository helps you implements this codelab
 https://codelabs.developers.google.com/codelabs/gemini-function-calling
 
