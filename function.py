@@ -9,7 +9,7 @@ from vertexai.generative_models import (
     Part,
     Tool)
 
-aiplatform.init(project=os.environ["PROJECT_ID"])
+aiplatform.init(project="YOUR_PROJECT_ID")
 
 model = GenerativeModel("gemini-1.0-pro")
 
