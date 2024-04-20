@@ -72,6 +72,7 @@ The function calling codelab goes through these steps
 
 - setup (use this guide)
 - test gemini text generation. Try the code in `test_generate.py`
+You can run the code using python `python test_generate.py`
 - trying a workaround. The code is in `workaround.py`
 - testing the currency api. The code is in `api.py`
 - Building the function. The code is in `function.py`
