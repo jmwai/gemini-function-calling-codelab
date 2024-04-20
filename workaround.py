@@ -7,7 +7,7 @@ aiplatform.init(project=os.environ["PROJECT_ID"])
 
 model = GenerativeModel("gemini-1.0-pro")
 
-user_prompt = "What's the exchange rate from euros to US dollars today?"
+user_prompt = "What's the exchange rate for Euro to South Africa Rand today?"
 
 response = model.generate_content("""
 Your task is to extract parameters from the user's input and return it as a

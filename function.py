@@ -43,8 +43,8 @@ exchange_rate_tool = Tool(
     function_declarations=[get_exchange_rate_func],
 )
 
-prompt = """What is the exchange rate from Australian dollars to Swedish krona?
-How much is 500 Australian dollars worth in Swedish krona?"""
+prompt = """What's the exchange rate for Euro to South Africa Rand today?
+How much is 1000 Euros worth in South Africa Rand?"""
 
 response = model.generate_content(
     prompt,
