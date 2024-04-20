@@ -50,7 +50,11 @@ Verify the Variable:
 
 #### Verify your setup is okay
 
- To verify that you setup is working, You can run the code like this `python3 test_generate.py` and you should see gemini response on your terminal.
+ To verify that you setup is working, You can run the code like this 
+
+ `python3 test_generate.py`  
+ 
+ If the setup is okay, you should see gemini response on your terminal.
  Something close to this;
  ```
  The current exchange rate for Kenya Shilling (KES) to South Africa Rand (ZAR) is **1 KES = 0.12222 ZAR**. This rate was last updated on October 26th, 2023, at 9:46 PM PST. 
@@ -72,7 +76,6 @@ The function calling codelab goes through these steps
 
 - setup (use this guide)
 - test gemini text generation. Try the code in `test_generate.py`
-You can run the code using python `python test_generate.py`
 - trying a workaround. The code is in `workaround.py`
 - testing the currency api. The code is in `api.py`
 - Building the function. The code is in `function.py`
