@@ -57,7 +57,7 @@ Verify the Variable:
  If the setup is okay, you should see gemini response on your terminal.
  Something close to this;
  ```
- The current exchange rate for Kenya Shilling (KES) to South Africa Rand (ZAR) is **1 KES = 0.12222 ZAR**. This rate was last updated on October 26th, 2023, at 9:46 PM PST. 
+As of Thursday, October 26, 2023, 1 US Dollar (USD) is equal to approximately 0.98 Euros (EUR). This means that for every 1 USD, you can exchange it for around 0.98 EUR.
 
 It is important to note that exchange rates are constantly fluctuating and can change at any time. This is just a snapshot of the current rate and may not reflect the actual rate at the time you make your transaction. 
 
@@ -67,7 +67,7 @@ Here are some resources where you can find updated exchange rates:
 * **XE Currency:** https://www.xe.com/currencyconverter/
 * **Yahoo Finance:** https://finance.yahoo.com/currencies
 
-These resources will also allow you to convert other currencies, not just KES and ZAR.
+These resources will also allow you to convert other currencies, not just USD and EUR.
 ```
 
 ####  The code lab

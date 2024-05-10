@@ -9,7 +9,7 @@ from vertexai.generative_models import (
     Part,
     Tool)
 
-aiplatform.init(project="YOUR_PROJECT_ID")
+aiplatform.init(project=os.environ["PROJECT_ID"])
 
 model = GenerativeModel("gemini-1.0-pro")
 
@@ -43,8 +43,8 @@ exchange_rate_tool = Tool(
     function_declarations=[get_exchange_rate_func],
 )
 
-prompt = """What's the exchange rate for Euro to South Africa Rand today?
-How much is 1000 Euros worth in South Africa Rand?"""
+prompt = """What's the exchange rate for US Dollar to Euro today?
+How much is 1000 Us Dollars worth in Euros?"""
 
 response = model.generate_content(
     prompt,
